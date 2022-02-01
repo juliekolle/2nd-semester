@@ -1,4 +1,8 @@
 main {
+  background-color: blue;
+}
+
+p {
+  font-size: 40px;
   color: aquamarine;
-  font-size: large;
 }
