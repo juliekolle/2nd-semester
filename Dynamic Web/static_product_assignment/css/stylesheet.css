@@ -18,6 +18,8 @@ li {
 
 img {
   background-color: rgb(200, 241, 137);
+  max-width: auto;
+  max-height: auto;
 }
 
 .purchase_box {
@@ -35,4 +37,16 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 0.5fr 0.5fr;
+}
+
+#categorypage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+#productlist_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
