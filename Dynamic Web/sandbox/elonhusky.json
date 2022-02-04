@@ -1,0 +1,12 @@
+{
+  "name": "Elon Husky",
+  "powers": ["time-travel", "dog-whispering"],
+  "primaryNemesis": "All of Humanity",
+  "img": "https://c.ndtvimg.com/2020-02/rcakle8c_elon-musk-elon-musk-vampire_625x300_26_February_20.jpg?im=Resize=(1230,900)",
+  "lifePercentage": 3000,
+  "dob": {
+    "day": 49,
+    "month": 18,
+    "year": 3879
+  }
+}
