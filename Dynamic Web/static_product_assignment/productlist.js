@@ -23,6 +23,7 @@ const template = document.querySelector("#smallProductTemplate").content;
 const copy = template.cloneNode(true);
 
 //change content
+copy.querySelector("a").setAttribute("href", `product.html?id=${product.id}`)
 copy.querySelector(".subtle").textContent = `${product.articletype} | ${product.brandname}`;
 copy.querySelector("h3").textContent = product.productdisplayname;
 
