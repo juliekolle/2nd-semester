@@ -13,32 +13,6 @@ function handleProductList(data){
 data.forEach(showProduct);
 }
 
-/*{
-showProduct(item);
-});
-}*/
-
-
-
-/*
-<template id="smallProductTemplate">
-          <article class="smallProduct">
-            <h3>PRODUCTTITLE</h3>
-            <p class="subtle"></p>
-            <img
-              class="productimage"
-              src="https://kea-alt-del.dk/t7/images/webp/1000/1163.webp"
-              alt="productimage"
-            />
-            <p class="price"><span>Prev.</span> 1000DKK</p>
-            <div class="discounted">
-              <p>Price: 500DKK</p>
-              <p>-34%</p>
-            </div>
-            <a href="product.html"> View product</a>
-          </article>
-        </template>
-*/
 
 function showProduct(product){
     console.log(product);
@@ -69,5 +43,5 @@ copy.querySelector(".price").textContent = "Prev. " + product.price + "DKK";
 const parent = document.querySelector("#productlist_grid");
 
 //append
-parent.appendChild(copy)
+parent.appendChild(copy);
 }
