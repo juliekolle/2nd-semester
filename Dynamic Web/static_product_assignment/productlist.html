@@ -10,51 +10,34 @@
   <body>
     <header>
       <h1>Zalendo</h1>
-      <li><a href="category.html"> category.html </a></li>
-      <li><a href="productlist.html"> productlist.html </a></li>
-      <li><a href="product.html"> product.html </a></li>
+      <ul>
+        <li><a href="category.html"> category.html </a></li>
+        <li><a href="productlist.html"> productlist.html </a></li>
+        <li><a href="product.html"> product.html </a></li>
+      </ul>
     </header>
     <main>
       <h1>productlist</h1>
       <div id="productlist_grid">
-        <article>
-          <img src="" alt="productimage" />
-          <p>Price: 500DKK</p>
-          <div class="soldout_label">sold out</div>
-          <a href="product.html"> View product</a>
-        </article>
-        <article>
-          <img src="" alt="productimage" />
-          <p>Price: 500DKK</p>
-          <div class="soldout_label">sold out</div>
-          <a href="product.html"> View product</a>
-        </article>
-        <article>
-          <img src="" alt="productimage" />
-          <p>Price: 500DKK</p>
-          <div class="soldout_label">sold out</div>
-          <a href="product.html"> View product</a>
-        </article>
-        <article>
-          <img src="" alt="productimage" />
-          <p>Price: 500DKK</p>
-          <div class="soldout_label">sold out</div>
-          <a href="product.html"> View product</a>
-        </article>
-        <article>
-          <img src="" alt="productimage" />
-          <p>Price: 500DKK</p>
-          <div class="soldout_label">sold out</div>
-          <a href="product.html"> View product</a>
-        </article>
-        <article>
-          <img src="" alt="productimage" />
-          <p>Price: 500DKK</p>
-          <div class="soldout_label">sold out</div>
-          <a href="product.html"> View product</a>
-        </article>
+        <template id="smallProductTemplate">
+          <article class="smallProduct">
+            <img
+              class="productimage"
+              src="https://kea-alt-del.dk/t7/images/webp/1000/1163.webp"
+              alt="productimage"
+            />
+            <h3>PRODUCTTITLE</h3>
+            <p class="subtle">Tshirts | Nike</p>
+            <p class="price"><span>Prev.</span> 1000DKK</p>
+            <div class="discounted">
+              <p>Price: 500DKK</p>
+              <p>-34%</p>
+            </div>
+            <a href="product.html"> View product</a>
+          </article>
+        </template>
       </div>
     </main>
-    <script src="javascript.js"></script>
+    <script src="productlist.js"></script>
   </body>
 </html>
