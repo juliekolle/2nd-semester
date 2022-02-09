@@ -61,8 +61,8 @@ if(product.discount){
     copy.querySelector("article").classList.add("onsale_label")
 }
 
-copy.querySelector(".discounted p").textContent = product.price/product.discount + " DKK";
-copy.querySelector(".price").textContent = product.price;
+copy.querySelector(".discounted p").textContent = product.price/product.discount + "DKK";
+copy.querySelector(".price").textContent = "Prev. " + product.price + "DKK";
 //copy.querySelector(".discounted p").textContent = product.discount;
 
 //grab parent
