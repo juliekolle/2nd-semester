@@ -9,7 +9,7 @@ handleProductList(data);
 })
 
 function handleProductList(data){
-//console.log(data);
+console.log(data);
 data.forEach(showProduct);
 }
 

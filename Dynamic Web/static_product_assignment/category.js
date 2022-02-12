@@ -15,8 +15,8 @@ console.log(data);
 data.forEach(showCategory);
 }
 
-function showCategory(category){
-    console.log(category);
+function showCategory(brandname){
+    console.log(brandname);
 
     //grab the template
     const template = document.querySelector("#smallCategoryTemplate").content;
@@ -26,7 +26,7 @@ const copy = template.cloneNode(true);
 
 //change content
 //copy.querySelector("h3").textContent = product.productdisplayname;
-//copy.querySelector("h3").textContent = brandname;
+copy.querySelector("h3").textContent = brandname;
 
 //grab parent
 const parent = document.querySelector("#category_grid");
